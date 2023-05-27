@@ -1,53 +1,34 @@
-# Project Vee
+# Project Vee Builder
 
-This repository contains the source code for a GitHub page that assists users in setting up an initial configuration for their own projects to create an ephemeral environments workflow. Users can select a variety of platforms, CI/CD tools, and specify their domain name.
+Project Vee Builder is a tool that helps you set up ephemeral environments for your projects using Kubernetes, Helm, and other technologies. The application runs on GitHub Pages, and it allows you to specify your preferred platform, CI/CD tool, domain name, and other options, and it generates the necessary configuration files to help you get started quickly.
+
+![Project Vee Builder Screenshot](./docs/images/placeholder.jpeg)
 
 ## Features
 
-The GitHub page allows users to select the following:
+- Selection of platform (AWS, GCP, Azure, On Host, and others)
+- Choice of CI/CD tool (Github actions, Circle CI, Jenkins, and others)
+- Custom domain name input
+- Generation of ZIP file containing the necessary configuration files
 
-### Platforms
-- AWS
-- GCP
-- Azure
-- On Host
-- ...
+## Getting Started
 
-### CI/CD tools
-- Github actions
-- Circle CI
-- Jenkins
-- ...
+To get started with Project Vee Builder, navigate to our [GitHub Pages site](https://yourusername.github.io/projectveebuilder). From there, you can fill out the form according to your project's needs, and download the generated ZIP file containing the configuration files.
 
-### Domain Name
-- Custom domain configuration
+For more detailed instructions, see our [Getting Started Guide](./docs/getting-started.md).
 
-And more!
+## Documentation
 
-## Usage
-
-To use the Project Vee Builder:
-
-1. Navigate to the GitHub page hosted at [https://sergiusavva.github.io/project-vee/](https://github.com/SergiuSavva/project-vee).
-2. Follow the instructions and select your preferences for the platform, CI/CD tools, and specify your domain name.
-3. Generate your starting point for the project.
+For more information on how to use Project Vee Builder, including more detailed instructions and information on how the application works, see our [User Guide](./docs/user-guide.md).
 
 ## Contributing
 
-Contributions to improve Project Vee Builder are greatly appreciated. To contribute:
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+We welcome contributions to Project Vee Builder. If you're interested in contributing, please see our [Contributing Guide](./CONTRIBUTING.md) for more information.
 
 ## License
 
-Distributed under the <License> License. See `LICENSE` for more information.
+Project Vee Builder is licensed under the [Apache License](./LICENSE).
 
 ## Contact
 
-Sergiu Savva - sergiu.savva@gmail.com
-
-Project Link: [https://github.com/SergiuSavva/project-vee2](https://github.com/SergiuSavva/project-vee)
+If you have any questions or issues, please [open an issue on our GitHub page](https://github.com/yourusername/projectveebuilder/issues/new), and we'll do our best to assist you.
